@@ -1,0 +1,15 @@
+.header {
+    grid-area: h;
+    background-color: #FFFFFF;
+    padding: 20px;
+
+;
+
+}
+.logo{
+    width: 40px;
+}
+
+.apid {
+    width: 100px;
+}

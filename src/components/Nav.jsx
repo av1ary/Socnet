@@ -1,36 +1,45 @@
 import React from 'react';
-import './../App.css';
+import classes from './Nav.module.css';
 
 const Nav = () => {
     return(
-    <nav className='nav'>
-        <div>
-            <a>Newsfeed</a>
+    <nav className={classes.nav}>
+        <div className={classes.menu}>
+            Society
+            <div className={classes.navbottom}>
+                <a>Newsfeed</a>
+            </div>
+            <div className={classes.navbottom}>
+                <a>Explore Stories</a>
+            </div>
+            <div className={classes.navbottom}>
+                <a>Popular Groups</a>
+            </div>
+
+            <div className={classes.navbottom}>
+                <a>Streams</a>
+            </div>
+            <div className={classes.navbottom}>
+                <a>Games</a>
+            </div>
+
         </div>
-        <div>
-            <a>Badges</a>
+
+        <div className={classes.menu}>
+            <div>Accont</div>
+            <div className={classes.navbottom}>
+                <a>My Profile</a>
+            </div>
+            <div className={classes.navbottom}>
+                <a>Messages</a>
+            </div>
+            <div className={classes.navbottom}>
+                <a>Settings</a>
+            </div>
         </div>
-        <div>
-            <a>Explore Stories</a>
-        </div>
-        <div>
-            <a>Popular Groups</a>
-        </div>
-        <div>
-            <a>My Profile</a>
-        </div>
-        <div>
-            <a>Streams</a>
-        </div>
-        <div>
-            <a>News</a>
-        </div>
-        <div>
-            <a>Games</a>
-        </div>
-        <div>
-            <a>Settings</a>
-        </div>
+
+
+
 
     </nav> )
 }

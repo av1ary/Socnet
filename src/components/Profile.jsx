@@ -1,11 +1,10 @@
 import React from 'react';
-import './../App.css';
+import classes from './Profile.module.css';
 
 const Profile = () => {
     return (
-        <div className='content'>
-            <img className="backphoto" src="https://s.zagranitsa.com/images/articles/7457/870x486/17c6c5b5aa51d95cedde0896cef0970d.jpg?1544460565"/>
-
+        <div className={classes.profile}>
+            <img className={classes.profilebackphoto} src="https://www.britannica.com/explore/savingearth/wp-content/uploads/sites/4/2020/07/AdobeStock_221175504-1536x1024.jpeg" />
             <div>
                 ava and desc
             </div>
