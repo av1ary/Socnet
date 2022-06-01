@@ -1,7 +1,7 @@
 .profile {
     grid-area: c;
     background-color: #edeff2;
-    padding: 20px;
+    width: 100%;
 }
 .profilebackphoto {
     margin: 0 auto;
