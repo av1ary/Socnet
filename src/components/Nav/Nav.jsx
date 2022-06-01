@@ -9,26 +9,30 @@ const Nav = () => {
             <ul>
                 <li className={classes.navbottom}>
                     <a href="">
-                        <i className='bx bx-news'> <span> Newsfeed</span></i></a>
-                </li>
-                <li className={classes.navbottom}>
-                    <a href="">
-                        <i className='bx bxs-color'> <span> Stories</span> </i>
+                        <i className='bx bx-news'> <span> Newsfeed</span></i>
                     </a>
                 </li>
                 <li className={classes.navbottom}>
                     <a href="">
-                        <i className='bx bx-group'> <span>Groups</span> </i>
+                        <i className='bx bxs-color'> <span> Stories</span></i>
+                    </a>
+                </li>
+
+
+                <li className={classes.navbottom}>
+                    <a href="">
+                        <i className='bx bx-group'> <span> Groups</span></i>
+                    </a>
+                </li>
+
+                <li className={classes.navbottom}>
+                    <a href="">
+                        <i className='bx bx-tv'> <span> Streams</span></i>
                     </a>
                 </li>
                 <li className={classes.navbottom}>
                     <a href="">
-                        <i className='bx bx-tv'><span> Streams</span></i>
-                    </a>
-                </li>
-                <li className={classes.navbottom}>
-                    <a href="">
-                        <i className='bx bx-game'><span> Games</span> </i>
+                        <i className='bx bx-game'> <span> Games</span></i>
                     </a>
                 </li>
 

@@ -1,6 +1,15 @@
-.profile {
-    grid-area: c;
-    background-color: #edeff2;
-    width: 100%;
-    padding: 50px;
+.Userdetail {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 75%;
+    height: 320px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .Userdetail {
+        width: 100%;
+    }
+
 }

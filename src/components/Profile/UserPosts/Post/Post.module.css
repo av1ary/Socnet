@@ -1,12 +1,26 @@
-.profile {
-    grid-area: c;
-    background-color: #edeff2;
+.avatar
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.post{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px){
+.post{
     width: 100%;
 }
-.profilebackphoto {
-    margin: 0 auto;
-    width: 80%;
-    padding: 20px;
-    height: 100px;
-    object-fit: none;
+}
+
+.actbutton{
+    display: flex;
+    position: relative;
 }

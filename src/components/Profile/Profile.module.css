@@ -2,11 +2,5 @@
     grid-area: c;
     background-color: #edeff2;
     width: 100%;
-}
-.profilebackphoto {
-    margin: 0 auto;
-    width: 80%;
-    padding: 20px;
-    height: 100px;
-    object-fit: none;
+    padding: 50px;
 }

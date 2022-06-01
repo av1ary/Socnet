@@ -1,16 +1,14 @@
 import React from 'react';
-import classes from './Profile.module.css';
-import UserPosts from "./UserPosts/UserPosts";
-import Userinfo from "./Userinfo/Userinfo";
+import classes from './Userdetail.module.css';
 
-const Profile = () => {
+const Userdetail = () =>{
     return (
-        <div className={classes.profile}>
-            <Userinfo/>
-            <UserPosts/>
+        <div className={classes.Userdetail}>
+
+
 
         </div>
     )
 }
 
-export default Profile
+export default Userdetail
