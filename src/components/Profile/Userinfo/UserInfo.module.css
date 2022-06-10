@@ -1,5 +1,4 @@
 
-
 .avatar {
     width: 100px;
     height: 100px;
@@ -8,11 +7,12 @@
     border-radius: 50px;
     border-width: 5px;
     position: relative;
-    top:-50px;
+    top: -50px;
     left: 30px;
 
 
 }
+
 .profilebackphoto {
     margin: 0 auto;
     width: 100%;
@@ -50,8 +50,8 @@
 
 }
 
-@media only screen and (max-width: 950px){
-    .actbutton{
+@media only screen and (max-width: 950px) {
+    .actbutton {
         visibility: hidden;
     }
 }
@@ -70,19 +70,20 @@
     top: -50px;
     left: 20px;
 }
+
 .detailsbutton a {
     color: dimgray;
     text-decoration: none;
 
 }
 
-.detailsbutton a span{
+.detailsbutton a span {
     color: dimgray;
     text-decoration: none;
 
 }
 
-.actbutton{
+.actbutton {
     display: inline-block;
     margin: 5px;
     border-radius: 5px;
@@ -97,7 +98,7 @@
 
 }
 
-.actbuttonsul{
+.actbuttonsul {
     list-style-type: none;
     padding: 5px;
     margin: auto;
@@ -109,19 +110,20 @@
     margin: 8px 0;
 }
 
-.actbutton:hover{
+.actbutton:hover {
 
     background-color: #edeff2;
 
 }
-.actbutton:hover i{
+
+.actbutton:hover i {
 
     color: #332d56;
 
 }
 
 
-.actbutton a{
+.actbutton a {
     color: #FFFFFF;
     text-decoration: none;
     border-width: 20px;
@@ -129,7 +131,7 @@
     margin: 5px;
 }
 
-.actbutton a span{
+.actbutton a span {
     text-decoration: none;
     white-space: nowrap;
     overflow: hidden;

@@ -7,7 +7,8 @@ const Post = (props) => {
     console.log(props.comtext)
     return (
         <div className={classes.post}>
-                <img className={classes.avatar} src="https://www.hollywoodreporter.com/wp-content/uploads/2019/03/avatar-publicity_still-h_2019.jpg?w=1024"/>
+            <img className={classes.avatar}
+                 src="https://www.hollywoodreporter.com/wp-content/uploads/2019/03/avatar-publicity_still-h_2019.jpg?w=1024"/>
             <div><a href=''>Robin Hood</a></div>
 
             {props.comtext}
@@ -16,7 +17,6 @@ const Post = (props) => {
             <a className={classes.actbutton}><i className='bx bx-repost'></i> <span>Repost</span></a>
 
             <Comments/>
-
 
 
         </div>

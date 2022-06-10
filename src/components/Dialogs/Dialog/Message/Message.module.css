@@ -1,0 +1,10 @@
+.message{
+    min-width: 50px;
+    min-height: 25px;
+    padding: 10px;
+    background-color: #cdc5fc;
+    margin: 10px;
+    border-radius: 10px;
+    display: table;
+    font-size: 14px;
+}
