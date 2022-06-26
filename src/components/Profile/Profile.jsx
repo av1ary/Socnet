@@ -4,13 +4,15 @@ import UserPosts from "./UserPosts/UserPosts";
 import Userinfo from "./Userinfo/Userinfo";
 import Userdetail from "./Userdetail/Userdetail";
 
-const Profile = () => {
+const Profile = (props) => {
+    
+    console.log(props.profile)
+
     return (
         <div className={classes.profile}>
             <Userinfo/>
             <Userdetail/>
-            <UserPosts/>
-
+            <UserPosts postcont={props.profile.postcont}/>
         </div>
     )
 }

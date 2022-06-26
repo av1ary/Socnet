@@ -13,6 +13,16 @@
     margin: auto;
     margin-top: 20px;
 }
+.username{
+    position: relative;
+    top: -80px;
+    left: 100px;
+}
+
+.username .a{
+    text-decoration: none;
+    color: black;
+}
 
 @media only screen and (max-width: 900px){
 .post{
@@ -21,6 +31,6 @@
 }
 
 .actbutton{
-    display: flex;
-    position: relative;
+    display: inline;
+
 }

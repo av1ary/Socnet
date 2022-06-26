@@ -9,6 +9,10 @@
     grid-area: n;
     background-color: #332d56;
     padding: 0;
+    overflow: auto;
+    position: fixed;
+    top: 70px;
+    width: 250px;
     height: 100%;
 }
 

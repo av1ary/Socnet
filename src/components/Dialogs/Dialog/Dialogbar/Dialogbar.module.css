@@ -1,0 +1,34 @@
+.Dialogbar{
+    background-color: #332d56;
+    height: 50px;
+    padding: 10px;
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between; /* switched from default (flex-start, see below) */
+
+}
+
+.friendstatus{
+    color: #FFFFFF;
+
+
+}
+
+.friendinfo{
+    color: #FFFFFF;
+
+
+}
+
+.messearch{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    outline:none;
+}
+.messearch:active{
+border: none;
+outline:none;
+}

@@ -1,5 +1,4 @@
-.profile{
-    background-color: #edeff2;
-    width: 100%;
-    padding: 50px;
+.profile {
+    height: 100%;
+    overflow: scroll;
 }

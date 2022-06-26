@@ -4,11 +4,14 @@ import Dialog from "./Dialog/Dialog";
 import Friends from "./Friends/Friends";
 
 
-const Dialogs = () => {
+const Dialogs = (props) => {
+
+    console.log(props.dialogs)
+
     return (
         <div className={classes.dialogs}>
-            <Dialog/>
-            <Friends/>
+            <Dialog messagedata={props.dialogs.messagedata}/>
+            <Friends dialogFriends={props.dialogs.dialogFriends}/>
         </div>
     )
 }

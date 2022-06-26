@@ -50,7 +50,7 @@ const Nav = () => {
                         </NavLink>
                     </li>
                     <li className={classes.navbottom}>
-                        <NavLink to="/messages">
+                        <NavLink to="/dialogs">
                             <i className='bx bx-message-square-dots'> <span> Messages</span></i>
 
                         </NavLink>

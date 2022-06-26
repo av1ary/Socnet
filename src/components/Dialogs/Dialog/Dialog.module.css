@@ -2,7 +2,13 @@
     grid-area: d;
     border-style: hidden;
     height: 100%;
+    overflow: hidden;
+}
+.Dialogarea{
     background-color: #FFFFFF;
     padding: 20px;
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
 
 }

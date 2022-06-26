@@ -5,7 +5,6 @@ import Profile from "./components/Profile/Profile";
 import 'boxicons';
 import Dialogs from "./components/Dialogs/Dialogs";
 import Newsfeed from "./components/Newsfeed/Newsfeed";
-
 import {
     BrowserRouter,
     Route,
@@ -16,20 +15,20 @@ import Groups from "./components/Groups/Groups";
 import Streams from "./components/Streams/Streams";
 import Games from "./components/Games/Games";
 import Settings from "./components/Settings/Settings";
+const App = (props) => {
 
-const App = () => {
+    console.log(props.state)
 
-  return (
+    return (
       <BrowserRouter>
           <div className='app-wrapper'>
           <Header/>
           <Nav/>
           <div className='maingrid'>
               <Routes>
-
                   <Route path="" element={<Newsfeed/>}/>
-                  <Route path="/messages/*" element={<Dialogs/>}/>
-                  <Route path="/profile/*" element={<Profile/>}/>
+                  <Route path="/dialogs/*" element={<Dialogs dialogs={props.state.dialogs} />}/>
+                  <Route path="/profile/*" element={<Profile profile={props.state.profile} />}/>
                   <Route path="/newsfeed/*" element={<Newsfeed/>}/>
                   <Route path="/stories/*" element={<Stories/>}/>
                   <Route path="/groups/*" element={<Groups/>}/>

@@ -4,7 +4,6 @@
     padding: 10px;
     vertical-align: auto;
     display:inline-block;
-    height: 100%;
     width: 90%;
-
+    overflow: hidden;
 }

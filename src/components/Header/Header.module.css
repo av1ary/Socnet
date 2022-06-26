@@ -2,12 +2,40 @@
     grid-area: h;
     background-color: #FFFFFF;
     padding: 20px;
-
+    height: 70px;
+    position: fixed;
+    min-width: 100%;
+    z-index: 500
 }
 .logo{
     width: 40px;
+    position: relative;
+    top: -5px;
 }
 
 .apid {
     width: 100px;
+    position: relative;
+    top: -5px;
 }
+
+.MainSearch{
+    position: relative;
+    top: -15px;
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: #edeff2;
+    left: 100px;
+    outline:none;
+}
+
+@media (max-width: 900px) {
+    .MainSearch{
+        left: 0px;
+    }
+}
+

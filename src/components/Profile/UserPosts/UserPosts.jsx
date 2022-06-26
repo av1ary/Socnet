@@ -2,13 +2,18 @@ import React from 'react';
 import classes from './UserPosts.module.css';
 import Post from "./Post/Post";
 
-const UserPosts = () => {
+const UserPosts = (props) => {
+
+    console.log(props.postcont)
+
+    let ShowPosts = props.postcont.map(post=><Post text={post.text}/>)
+
     return (
+
         <div className={classes.posts}>
-            <Post comtext='I am king'/>
-            <Post comtext='I am developer'/>
-            <Post comtext='i need a job'/>
-            <Post comtext='Please, hire me'/>
+
+            {ShowPosts}
+
         </div>
     )
 }
